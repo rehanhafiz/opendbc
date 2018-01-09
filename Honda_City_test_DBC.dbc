@@ -38,6 +38,4 @@ BU_: XXX
 
 BO_ 380 Car Motion: 8 XXX
  SG_ RPM_probably : 23|16@0+ (1,0) [0|65535] "rpm" XXX
- SG_ Gas_Pedal_probably : 39|1@0+ (1,0) [0|1] "" XXX
-
-BO_ 344 NEW_MSG_2: 8 XXX
+ SG_ Gas_Pressed_probably : 39|1@0+ (1,0) [0|1] "" XXX
