@@ -50,7 +50,7 @@ BO_ 464 NEW_MSG_4: 8 XXX
 
 BO_ 344 Car_Motion2: 8 XXX
  SG_ Brake_pressed_possibly : 33|1@0+ (1,0) [0|1] "" XXX
- SG_ Speed_probably : 7|16@0+ (1.0,0) [0|65535] "" XXX
+ SG_ Speed_probably : 7|16@0+ (1,0) [0|65535] "" XXX
  SG_ Speed2_probably : 39|16@0+ (1,0) [0|65535] "" XXX
  SG_ Trip_Meter_probably : 55|8@0+ (1,0) [0|255] "" XXX
 
@@ -70,3 +70,6 @@ BO_ 208 Wheels_Speeds: 8 XXX
  SG_ NEW_SIGNAL_3 : 32|15@0+ (1,0) [0|511] "" XXX
  SG_ NEW_SIGNAL_1 : 7|15@0+ (1,0) [0|65535] "" XXX
  SG_ NEW_SIGNAL_2 : 8|15@0+ (1,0) [0|65535] "" XXX
+
+BO_ 314 GAS: 8 XXX
+ SG_ Gas_Pedal : 15|8@0+ (1,0) [0|1] "" XXX
