@@ -68,7 +68,7 @@ BO_ 310 Test_Later: 8 XXX
  SG_ Test_later : 31|16@0- (1,0) [-32000|32000] "" XXX
 
 BO_ 398 Test2: 8 XXX
- SG_ Some_relation_to_steering : 8|16@1- (1,0) [-31000|31000] "" XXX
+ SG_ Some_relation_to_steering : 15|16@0- (1,0) [-31000|31000] "" XXX
 
 BO_ 208 Speeds: 8 XXX
  SG_ NEW_SIGNAL_3 : 32|15@0+ (1,0) [0|511] "" XXX
@@ -77,3 +77,5 @@ BO_ 208 Speeds: 8 XXX
 
 BO_ 314 GAS: 8 XXX
  SG_ Gas_Pedal : 15|8@0+ (1,0) [0|1] "" XXX
+
+BO_ 804 NEW_MSG_4: 8 XXX
