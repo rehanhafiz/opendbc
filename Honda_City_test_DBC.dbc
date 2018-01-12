@@ -37,8 +37,8 @@ BU_: XXX
 
 
 BO_ 380 Car_Motion: 8 XXX
- SG_ RPM_probably : 23|16@0+ (1,0) [0|65535] "rpm" XXX
  SG_ Gas_Pressed_probably : 39|1@0+ (1,0) [0|1] "" XXX
+ SG_ RPM_probably : 23|16@0+ (1,0) [0|65535] "rpm" XXX
 
 BO_ 356 NEW_MSG_1: 8 XXX
 
@@ -46,7 +46,11 @@ BO_ 432 NEW_MSG_2: 8 XXX
 
 BO_ 476 NEW_MSG_3: 8 XXX
 
-BO_ 464 NEW_MSG_4: 8 XXX
+BO_ 464 Wheel_Speeds: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|15@0+ (1,0) [0|32767] "" XXX
+ SG_ NEW_SIGNAL_2 : 8|15@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_3 : 25|15@0+ (1,0) [0|1023] "" XXX
+ SG_ NEW_SIGNAL_4 : 42|15@0+ (1,0) [0|7] "" XXX
 
 BO_ 344 Car_Motion2: 8 XXX
  SG_ Brake_pressed_possibly : 33|1@0+ (1,0) [0|1] "" XXX
@@ -64,9 +68,9 @@ BO_ 310 Test_Later: 8 XXX
  SG_ Test_later : 31|16@0- (1,0) [-32000|32000] "" XXX
 
 BO_ 398 Test2: 8 XXX
- SG_ Some_relation_to_steering : 8|16@1- (1,0) [-32000|32000] "" XXX
+ SG_ Some_relation_to_steering : 8|16@1- (1,0) [-31000|31000] "" XXX
 
-BO_ 208 Wheels_Speeds: 8 XXX
+BO_ 208 Speeds: 8 XXX
  SG_ NEW_SIGNAL_3 : 32|15@0+ (1,0) [0|511] "" XXX
  SG_ NEW_SIGNAL_1 : 7|15@0+ (1,0) [0|65535] "" XXX
  SG_ NEW_SIGNAL_2 : 8|15@0+ (1,0) [0|65535] "" XXX
